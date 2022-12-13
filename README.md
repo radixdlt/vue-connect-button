@@ -2,6 +2,20 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+- Make sure you have following code inside your vue instance configuration
+``` 
+{
+  template: {
+    compilerOptions: {
+      isCustomElement: (tag) => ['radix-connect-button'].includes(tag),
+    }
+  }
+}
+```
+- See `main.js` for connect-button configuraion and `TheWelcome.vue` for usage
+
+See [connect-button repository](https://github.com/radixdlt/connect-button) for more information
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).

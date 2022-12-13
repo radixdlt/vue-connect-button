@@ -1,5 +1,5 @@
 {
-  "name": "vue-connect-button",
+  "name": "@radixdlt/vue-connect-button",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "test:unit:dev": "cypress open --component"
   },
   "dependencies": {
+    "@radixdlt/connect-button": "^0.7.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
