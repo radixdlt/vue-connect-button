@@ -1,6 +1,8 @@
-# vue-connect-button
+# Vue Radix Connect Button
 
-This template should help get you started developing with Vue 3 in Vite.
+## About
+
+This repository contains example integration of `@radixdlt/connect-button` and Vue3 application
 
 - Make sure you have following code inside your vue instance configuration
 ``` 
